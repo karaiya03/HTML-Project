@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project | Time Table</title>
+    <style>
+        h1{
+            color: green;
+            text-decoration: underline;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width:100%;
+            border-collapse: separate;
+            margin-top:20px;
+
+        }
+        th,td{
+            border: 2px solid brown;
+            padding: 10px;
+            text-align:center;
+            padding: 15px;
+        }
+        th{
+            background-color: yellowgreen;
+        }
+        td{
+            background-color: grey;
+        }
+        tbody tr:nth-child(even){
+            background-color: blue;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Saint Michael Public School</h1>
+
+    <!-- Time Table for students -->
+    <table >
+        <thead>
+            <tr>
+                <th colspan="8">Time Table</th>
+            </tr>
+            <tr>
+            <th>Day / Lecture</th>
+            <th>I <br> 09:30 - 10:00</th>
+            <th>II <br> 10:00 - 10:30</th>
+            <th>III <br> 10:30 - 11:00</th>
+            <th>Lunch <br>11:00 - 11:30</th>
+            <th>IV <br> 11:30 - 12:00</th>
+            <th>V <br> 12:00 - 12:30</th>
+            <th>IV <br> 12:30 - 01:00</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>subject I</td>
+                <td>subject II</td>
+                <td>subject III</td>
+                <td rowspan="5">Lunch break</td>
+                <td>subject IV</td>
+                <td>subject V</td>
+                <td>subject VI</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>subject I</td>
+                <td>subject II</td>
+                <td>subject III</td>
+                
+                <td>subject IV</td>
+                <td>subject V</td>
+                <td>subject VI</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>subject I</td>
+                <td>subject II</td>
+                <td>subject III</td>
+                
+                <td>subject IV</td>
+                <td>subject V</td>
+                <td>subject VI</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>subject I</td>
+                <td>subject II</td>
+                <td>subject III</td>
+                
+                <td>subject IV</td>
+                <td>subject V</td>
+                <td>subject VI</td>Æ
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>subject I</td>
+                <td>subject II</td>
+                <td>subject III</td>
+                
+                <td>subject IV</td>
+                <td>subject V</td>
+                <td>subject VI</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>subject I</td>
+                <td>subject II</td>
+                <td>subject III</td>
+                <td colspan="4">No Lecture</td>
+                
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="8">Always follow rules and regulations of school.
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
